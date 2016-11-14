@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 640px;
+    margin: auto;
+    color: white;
+}
+
+content .header {
+    margin: 10px;
+}
+
+content .content {
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.video-container video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.video-container .poster {
+    position: fixed;
+    flex-direction: 'column';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
